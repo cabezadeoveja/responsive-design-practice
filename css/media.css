@@ -1,0 +1,36 @@
+.title{
+	text-align: center;
+	margin: 3%;
+}
+
+.civico h2{
+	text-align: center;
+	margin: 2%;
+}
+
+@media (min-width: 535px) and (max-width: 824px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background-color: black;
+		color: white;
+	}
+	.img{
+		border: 6px solid white;
+		content: url(../assets/plaza_de_armas_medias.jpg);
+	}
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+	[class*="col-"]{
+		width: 100%;
+	}
+	body{
+		background-color: pink;
+		color: #DFDFDF;
+	}
+		.img{
+			display: none;
+		}
+	}
